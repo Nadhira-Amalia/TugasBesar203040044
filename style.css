@@ -1,0 +1,34 @@
+:root {
+    /*      Theme colors        */
+    --midnight: #104f55;
+  
+    /* gradient color   */
+    --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    --gradient: linear-gradient(to right bottom, rgba(32, 55, 96, 0.8), rgba(169, 213, 253, 0.8));
+}  
+
+.jumbotron {
+    background-image: url('assets/img/bruno-abatti-mEfIhOTH27w-unsplash.jpg');
+    background-size: cover;
+    background-position: 0 -150px;
+    height: 620px;
+}
+
+.jumbotron .display-4{
+    margin-top: 150px;
+    margin-left: 500px;
+    font-size: 42px;
+    font-weight: bold;
+    color: rgb(215, 248, 250);
+}
+.jumbotron .lead{
+    margin-left: 500px;
+    color: rgb(215, 248, 250);
+}
+.jumbotron hr{
+    margin-left: 500px;
+    width: 600px;
+}
+.jumbotron .btn{
+    margin-left: 500px;
+}
